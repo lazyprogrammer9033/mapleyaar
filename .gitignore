@@ -1,0 +1,27 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+*.sqlite3
+
+# Node & React Native Dependencies
+node_modules/
+.expo/
+dist/
+build/
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
