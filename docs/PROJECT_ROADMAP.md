@@ -19,7 +19,7 @@ MapleYaar is a Canada-focused community & event platform allowing users to:
 ### Phase 1: Foundations & System Design (IN PROGRESS)
 * [x] **Milestone 1.1 — Version Control & Repository Setup**: Git initialization, `.gitignore`, documentation setup.
 * [x] **Milestone 1.2 — Domain & Database Data Modeling**: Entities (User, Venue, Event, Reservation, Participant) and cardinality rules.
-* [ ] **Milestone 1.3 — Technical Architecture Blueprint**: System design, client-server communication, directory layout.
+* [x] **Milestone 1.3 — Technical Architecture Blueprint**: System design, client-server communication, directory layout.
 
 ---
 

@@ -34,3 +34,22 @@
 * **How I verified it**: Inspected markdown formatting and validated relational keys and cardinality rules in `docs/DATABASE.md`.
 * **What I learned**: Why database schema design must precede API development, and how feature branches isolate work in Git.
 * **Next step**: Finalize architecture selection for backend framework (FastAPI) and setup backend repository directory.
+
+
+
+*========================================================================================*
+
+## Step 3 — System Architecture & Project Roadmap Setup
+* **Date**: 2026-09-24
+* **Status**: Completed
+* **What I did**: Created `docs/PROJECT_ROADMAP.md` to track product milestones for collaborators, and completed `docs/ARCHITECTURE.md` detailing system design, request lifecycles, and directory layout strategy.
+* **Why I did it**: To establish a transparent progress tracker for team members and a clear technical blueprint for component boundaries before writing code.
+* **Technology/concepts learned**: Client-Server architecture, RESTful API lifecycles, monorepo directory structuring, and technical roadmap planning.
+* **Commands used**: `git status`, `git add`, `git commit`, `git push origin main`
+* **Files created/changed**: `docs/PROJECT_ROADMAP.md`, `docs/ARCHITECTURE.md`, `docs/PROJECT_LOG.md`
+* **Important implementation details**: Structured project repository strategy into `backend/`, `mobile/`, and `docs/`.
+* **Problems encountered**: None.
+* **How the problem was solved**: N/A
+* **How I verified it**: Inspected markdown formatting and validated component interaction diagrams.
+* **What I learned**: How architectural blueprints prevent component coupling and keep project collaborators aligned.
+* **Next step**: Begin Phase 2 (Backend Setup) by creating the `backend/` directory and initializing Python virtual environment.
